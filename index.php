@@ -304,6 +304,10 @@
             # definicion de una funcion
             function compara_relaciona_y_conecta (array $informacion_algoritmo_secuencia = []) {
                 // desarrollo de la funcion.
+                include_once ("./linea_horizontal.php");
+                dibujar_('Esto es un array');
+                var_dump ($informacion_algoritmo_secuencia);
+                dibujar_('Esto es un Object');
                 echo json_encode ($informacion_algoritmo_secuencia,http_response_code(200));
             }
         ?>
