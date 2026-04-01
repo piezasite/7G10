@@ -28,13 +28,17 @@
     </p>
     <p>
         <b>
-            la O representa un espacio donde es obligatorio
-            que exista un valor, el cual puede ser estatico
-            o dinamico , por otro lado el - representa 
-            un espacio que puede ser vacio , estatico o dinamico,
-            respetando el orden natural de lectura de izquierda a 
+            la O representa un espacio donde es obligatorio<br>
+            que exista un valor, el cual puede ser estatico<br>
+            o dinamico , por otro lado el - representa <br>
+            un espacio que puede ser vacio , estatico o dinamico,<br>
+            respetando el orden natural de lectura de izquierda a <br>
             derecha de cada estructura.
         </b>
+        <em>
+            La conexion tiene que ser entre 
+            exlabones opuestos.
+        </em>
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
