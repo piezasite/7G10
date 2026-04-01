@@ -4,10 +4,14 @@
 
 # ejecuta el siguiente comando (escribe las siguiente palabras asi talcual y preciona la tecla enter despues de terminar de escribir)
 
-```
+``` 
+en la terminal
 php -S localhost:8000
+en el navegador
 para esferas:
 localhost:8080
+para el index:
+localhost:8000 
 ```
 
 ## si no tienes instalado php instalalo con:
@@ -19,6 +23,7 @@ localhost:8080
 ```
     cd esferas
     docker compose up -d --build
+    desde el navegador para administrador de db:
     localhost:8081
 ```
 
