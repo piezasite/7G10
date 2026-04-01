@@ -17,3 +17,14 @@
 ## lo anterior para entrar a una interface grafica para administrar tus bases de datos
 
 recurso externo ajeno a mis proyectos personales: <a href="https://www.adminer.org/">adminer pagina oficial</a>
+
+### personalizacion
+
+primeramente puedes cambiar el nombre del usuario o desarrollador web independiente o profesional.
+
+en la linea #1 encontraras:
+
+```$cual_es_tu_nombre = "";```
+
+coloca tu nombre dentro de las "" o ''
+para definir al owner del archivo

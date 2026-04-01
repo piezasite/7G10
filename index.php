@@ -1,3 +1,6 @@
+<?php 
+    $cual_es_tu_nombre = 'Ramiro Garc&iacute;a Gonz&aacute;lez'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
