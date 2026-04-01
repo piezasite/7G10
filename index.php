@@ -58,7 +58,21 @@
     </p>
     <p>
         la conexion entre exlabones opuestos 
-        puede darse en cualquier direccion.
+        puede darse en cualquier direccion
+        opuesta al punto de conexion
+    </p>
+    <p>
+        la posicion del punto de conexion
+        es constante ajustable.
+        imagina una bola de billar que esta 
+        cubierta por orificios del mismo tama&ntilde;o
+        el '-' es el exlabon opuesto que embona en esos
+        orificios entonces cuando un conector ocupa un 
+        orificio los otros disponibles se cierran 
+        manteniendo la posibilidad de conectarse en cualquier
+        direccion pero solo por pares de exlabones continuos iguales u opuestos. 
+        imagina que esa misma esfera puede funcionar como '-' tambien 
+        invirtiendo su relieve.
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
