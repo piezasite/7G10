@@ -384,5 +384,8 @@
             compara_relaciona_y_conecta ( busca_patrones_tapa_hoyos_y_reemplaza_valores() );
         ?>
     </section>
+    <footer>
+        Todos los derechos reservados &copy; syntaxsanctuary-timefinancehub-piezas4websites-phpframework-adaptowebs-mercancia.
+    </footer>
 </body>
 </html>
