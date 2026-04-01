@@ -72,7 +72,9 @@
         manteniendo la posibilidad de conectarse en cualquier
         direccion pero solo por pares de exlabones continuos iguales u opuestos. 
         imagina que esa misma esfera puede funcionar como '-' tambien 
-        invirtiendo su relieve.
+        invirtiendo su relieve.<b>re -lie- ve</b>
+        <br><em>elevacion - planicie_superficie - profundidad</em>
+        <br>mismo patron 3 estados , COINCIDENCIA ! ? ... no lose :)
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
