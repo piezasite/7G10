@@ -36,7 +36,24 @@ if ($action === 'upload') {
         echo json_encode(['error' => 'Error al mover archivo']);
     }
 } elseif ($action === 'fetch') {
-    // CAMBIO CRÍTICO: Intervalo de 15 minutos únicamente
+    // 1. OBTENER LOS NODOS ACTIVOS (Igual que antes)
     $stmt = $pdo->query("SELECT id, media_url FROM stories WHERE created_at >= NOW() - INTERVAL 15 MINUTE ORDER BY created_at DESC");
-    echo json_encode($stmt->fetchAll(PDO::FETCH_ASSOC));
+    $active_nodes = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    // 2. LIMPIEZA DE DISCO (Garbage Collector)
+    // Buscamos todos los archivos .mp4 en uploads
+    $files = glob('uploads/*.mp4');
+    $now = time();
+
+    foreach ($files as $file) {
+        // Si el archivo tiene más de 900 segundos (15 min) de vida, se borra
+        if (is_file($file) && ($now - filemtime($file) >= 900)) {
+            unlink($file); 
+        }
+    }
+
+    // 3. LIMPIEZA DE BASE DE DATOS (Opcional, para mantener la DB ligera)
+    $pdo->query("DELETE FROM stories WHERE created_at < NOW() - INTERVAL 15 MINUTE");
+
+    echo json_encode($active_nodes);
 }
