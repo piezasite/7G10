@@ -1,6 +1,9 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
 header('Content-Type: application/json');
-$host = 'db'; $db = '7G10'; $user = 'root'; $pass = 'rootlocalpass';
+$host = 'db'; $db = '7G10'; $user = 'root'; $pass = 'rootlocalpass_723fs';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);

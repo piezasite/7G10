@@ -2,27 +2,48 @@ services:
   db:
     image: mysql:8.0
     container_name: sphere_db
+    restart: always
     environment:
-      MYSQL_DATABASE: 7G10
-      MYSQL_ROOT_PASSWORD: rootlocalpass
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      TZ: America/Denver
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db_data:/var/lib/mysql
 
   adminer:
     image: adminer
     restart: always
     ports:
-      - 8081:8080 # Accede por http://localhost:8081
+      - 8081:8080
 
   web:
     build:
       context: .
       dockerfile: inline.Dockerfile
     container_name: sphere_web
+    restart: always
     ports:
       - "8080:80"
     volumes:
       - .:/var/www/html
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
     depends_on:
       - db
+
+  # --- SERVICIO DE TÚNEL CLOUDFLARE ---
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: sphere_tunnel
+    restart: always
+    command: tunnel run
+    environment:
+      # AQUÍ VA TU TOKEN DEL DASHBOARD DE CLOUDFLARE
+      - TUNNEL_TOKEN=${CF_TUNNEL_TOKEN}
+    depends_on:
+      - web
+
+volumes:
+  db_data:
