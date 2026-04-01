@@ -39,10 +39,26 @@
             respetando el orden natural de lectura de izquierda a <br>
             derecha de cada estructura.
         </b>
+        <br>
         <em>
             La conexion tiene que ser entre 
             exlabones opuestos.
         </em>
+    </p>
+    <p>
+        Las estructuras pueden multiplicarse de forma 
+        conjunta y aislada , los objetos de estructuras
+        base pueden comunicarse entre ellos pero no unirse 
+        de forma literal pero si de forma transaccional.
+    </p>
+    <p>
+        el valor resultante del procesamiento de datos 
+        e intercambio de informacion, es la union digital
+        entre bloques de datos estructurados.
+    </p>
+    <p>
+        la conexion entre exlabones opuestos 
+        puede darse en cualquier direccion.
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
