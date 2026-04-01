@@ -6,7 +6,11 @@
     <title>Paradigma 7G10</title>
 </head>
 <body>
-    <h1>Cambio de paradigma</h1>
+    <header>
+        <h1>Cambio de paradigma</h1>
+        <b>you are not my mom and im not my dad.</b>
+    </header>
+
     <p>
         <em>informacion - proceso - relacion - proceso - conexion - proceso - conclusion - retroalimentacion - proceso - fin.</em>
         <br>
