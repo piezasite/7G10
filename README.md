@@ -21,6 +21,7 @@ localhost:8000
 ## lo anterior es only para distribusiones basadas en debian ubuntu que utilizan el gestor de paquetes apt
 
 ```
+    en la terminal
     cd esferas
     docker compose up -d --build
     desde el navegador para administrador de db:
