@@ -127,7 +127,7 @@
     <p>
         Este documento es la base sobre la que 
         se es libre de construir extrayendo ,
-        organizando y creadon los canales 
+        organizando y creando los canales 
         de comunicacion y funciones 
         para la representacion interactiva visual
         del algoritmo(7G10) y sus patrones definidos.
