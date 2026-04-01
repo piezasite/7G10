@@ -15,7 +15,13 @@
         Programacion orientada a ciclos
     </p>
     <p>
-        O-O-O-O-O-O-O-O-O-O
+        La pregunta y la respuesta <br>
+        O-O-O-O-O-O-O-O-O-O<br>
+        no es que puedan tener dos <br>
+        estados al mismo tiempo <br>
+        sino que pueden regresar <br>
+        al mismo punto varias veces <br>
+        en una secuencia o ciclo
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
