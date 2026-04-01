@@ -125,6 +125,14 @@
     </p>
     <h2>Presente</h2>
     <p>
+        Este documento es la base sobre la que 
+        se es libre de construir extrayendo ,
+        organizando y creadon los canales 
+        de comunicacion y funciones 
+        para la representacion interactiva visual
+        del algoritmo(7G10) y sus patrones definidos.
+    </p>
+    <p>
         busca patrones 
         , tapa hoyos y 
         reemplaza valores.<?php
