@@ -15,3 +15,5 @@
 ```localhost:8000/adminer.php```
 
 ## lo anterior para entrar a una interface grafica para administrar tus bases de datos
+
+recurso externo ajeno a mis proyectos personales: <a href="https://www.adminer.org/">adminer pagina oficial</a>
