@@ -16,12 +16,25 @@
     </p>
     <p>
         La pregunta y la respuesta <br>
+        O-O-O-O-O-O-O-O-O-<br>
+        OOO-<br>
         O-O-O-O-O-O-O-O-O-O<br>
+        -OOO<br>
         no es que puedan tener dos <br>
         estados al mismo tiempo <br>
         sino que pueden regresar <br>
         al mismo punto varias veces <br>
         en una secuencia o ciclo
+    </p>
+    <p>
+        <b>
+            la O representa un espacio donde es obligatorio
+            que exista un valor, el cual puede ser estatico
+            o dinamico , por otro lado el - representa 
+            un espacio que puede ser vacio , estatico o dinamico,
+            respetando el orden natural de lectura de izquierda a 
+            derecha de cada estructura.
+        </b>
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
