@@ -4,7 +4,11 @@
 
 # ejecuta el siguiente comando (escribe las siguiente palabras asi talcual y preciona la tecla enter despues de terminar de escribir)
 
-```php -S localhost:8000```
+```
+php -S localhost:8000
+para esferas:
+localhost:8080
+```
 
 ## si no tienes instalado php instalalo con:
 
@@ -12,7 +16,11 @@
 
 ## lo anterior es only para distribusiones basadas en debian ubuntu que utilizan el gestor de paquetes apt
 
-```localhost:8000/adminer.php```
+```
+    cd esferas
+    docker compose up -d --build
+    localhost:8081
+```
 
 ## lo anterior para entrar a una interface grafica para administrar tus bases de datos
 

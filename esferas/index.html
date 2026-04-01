@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santuario | Nexus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #020617; --gold: #d4af37; --gold-br: #f9e076; }
+        body { background: var(--bg); color: #cbd5e1; font-family: 'Share Tech Mono', monospace; margin: 0; overflow: hidden; }
+        
+        /* Monitor de Cámara */
+        #preview-wrap { position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%); width: 200px; height: 200px; border: 2px solid var(--gold); border-radius: 50%; overflow: hidden; display: none; z-index: 1000; box-shadow: 0 0 20px var(--gold); }
+        #cam-preview { width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1); }
+        
+        /* Cronómetro */
+        #timer { position: fixed; bottom: 310px; left: 50%; transform: translateX(-50%); color: var(--gold); font-size: 1.5rem; text-shadow: 0 0 10px var(--gold); display: none; z-index: 1001; }
+
+        /* Barra de Progreso */
+        #progress-container { position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: rgba(0,0,0,0.5); z-index: 2000; display: none; }
+        #progress-bar { width: 0%; height: 100%; background: var(--gold-br); box-shadow: 0 0 10px var(--gold-br); transition: width 0.2s; }
+
+        .node-sphere { position: absolute; width: 80px; height: 80px; border-radius: 50%; border: 1px solid var(--gold); overflow: hidden; background: #000; 
+            cursor: pointer; z-index: 10;transition: opacity 0.5s ease, transform 0.5s ease; 
+        }
+        .node-sphere video { width: 100%; height: 100%; object-fit: cover; }
+
+        #rec-btn { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); width: 60px; height: 60px; border-radius: 50%; border: 3px solid var(--gold); background: transparent; cursor: pointer; z-index: 1001; }
+        #rec-btn.active { border-color: #f00; animation: pulse 1s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0px rgba(255,0,0,0.4); } 100% { box-shadow: 0 0 0 15px rgba(255,0,0,0); } }
+        #timer { 
+        position: fixed; top: 20px; left: 50%; transform: translateX(-50%); 
+        font-size: 3rem; color: var(--gold); text-shadow: 0 0 20px var(--gold);
+        z-index: 3000; display: none; font-family: 'Share Tech Mono', monospace;
+    }
+
+    #rec-btn { 
+        position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); 
+        width: 80px; height: 80px; border-radius: 50%; 
+        border: 4px solid var(--gold); background: rgba(0,0,0,0.6); 
+        cursor: pointer; z-index: 3000; display: flex; align-items: center; justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    /* Indicador visual dentro del botón */
+    #rec-btn::after {
+        content: "REC"; color: var(--gold); font-size: 0.8rem; font-weight: bold;
+    }
+
+    #rec-btn.active { border-color: #ff0055; }
+    #rec-btn.active::after { content: "STOP"; color: #ff0055; }
+
+    /* Estilo para Móvil (Responsive) */
+    @media (max-width: 600px) {
+        .node-sphere { width: 65px; height: 65px; } /* Esferas un poco más pequeñas en móvil */
+        #preview-wrap { width: 160px; height: 160px; bottom: 140px; }
+        #timer { font-size: 2rem; }
+    }
+    </style>
+    <link rel="icon" href="data:,">
+</head>
+<body>
+
+    <div id="progress-container"><div id="progress-bar"></div></div>
+    <div id="timer">20</div>
+    <div id="preview-wrap"><video id="cam-preview" autoplay muted playsinline></video></div>
+    
+    <main id="canvas"></main>
+    
+    <button id="rec-btn" onclick="toggleRecord()"></button>
+
+    <script src="app.js"></script>
+</body>
+</html>

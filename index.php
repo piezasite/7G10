@@ -168,7 +168,8 @@
                                 usar comandos print (o printf) incesantemente.
 
                                 Ejemplo de cómo se veía en Perl (El problema):',
-                                '#!/usr/bin/perl
+
+                                htmlspecialchars('#!/usr/bin/perl
                                 print "Content-type: text/html\n\n";
                                 print "<html>\n";
                                 print "<head><title>Mi Página</title></head>\n";
@@ -176,7 +177,7 @@
                                 print "<h1>Hola, " . $usuario . "</h1>\n";
                                 print "<p>Bienvenido a mi sitio web.</p>\n";
                                 print "</body>\n";
-                                print "</html>\n";',
+                                print "</html>\n";'),
 
                                 'Como puedes ver, todo el diseño de la página estaba atrapado dentro de comandos de impresión del lenguaje de programación. 
                                 Si un diseñador web quería cambiar el color de un título o agregar un salto de línea, tenía que pedirle al programador 
@@ -385,7 +386,10 @@
         ?>
     </section>
     <footer>
-        Todos los derechos reservados &copy; syntaxsanctuary-timefinancehub-piezas4websites-phpframework-adaptowebs-mercancia.
+        <b>Todos los derechos reservados &copy; syntaxsanctuary-timefinancehub-piezas4websites-phpframework-adaptowebs-mercancia.</b>
+        <p>
+            <a href="http://localhost:8080">O-O-O-O-O-O</a>
+        </p>
     </footer>
 </body>
 </html>
