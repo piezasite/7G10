@@ -132,6 +132,7 @@
         para la representacion interactiva visual
         del algoritmo(7G10) y sus patrones definidos.
     </p>
+    <h3>Sumergete en el codigo fuente de este archivo y ...</h3>
     <p>
         busca patrones 
         , tapa hoyos y 
