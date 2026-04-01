@@ -10,7 +10,7 @@
         <h1>Cambio de paradigma</h1>
         <b>you are not my mom and im not my dad.</b>
     </header>
-
+    <h2>Algoritmo</h2>
     <p>
         <em>informacion - proceso - relacion - proceso - conexion - proceso - conclusion - retroalimentacion - proceso - fin.</em>
         <br>
@@ -108,8 +108,7 @@
         por lo tanto podriamos decir 
         siguiendo esa logica que: 7G10 = A Mi Nombre Completo
     </p>
-    <h2>Algoritmo</h2>
-    <p>? Desconocido</p>
+    
     <h2>Cambiaron la logica</h2>
     <p>
         en la prehistoria html estaba
