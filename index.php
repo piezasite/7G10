@@ -10,7 +10,12 @@
     <p>
         <em>informacion - proceso - relacion - proceso - conexion - proceso - conclusion - retroalimentacion - proceso - fin.</em>
         <br>
-        Aqui no hay cambio de paradigma solo mi presente y la recopilacion de lo que yo leeo , aprendo y pract&iacute;co.
+        Aqui no hay cambio de paradigma solo mi presente y la recopilacion de lo que yo leeo , aprendo y pract&iacute;co. 
+        <br> O si ? 
+        Programacion orientada a ciclos
+    </p>
+    <p>
+        O-O-O-O-O-O-O-O-O-O
     </p>
     <p>
         7G10 surge del rasonamiento al estar nombrando 
