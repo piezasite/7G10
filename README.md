@@ -11,3 +11,7 @@
 ```sudo apt install php```
 
 ## lo anterior es only para distribusiones basadas en debian ubuntu que utilizan el gestor de paquetes apt
+
+```localhost:8000/adminer.php```
+
+## lo anterior para entrar a una interface grafica para administrar tus bases de datos
