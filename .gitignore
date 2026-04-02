@@ -1,1 +1,3 @@
-esferas/.evn
+.env
+.env.*
+!.env.example
