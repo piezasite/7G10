@@ -386,7 +386,13 @@
         ?>
     </section>
     <footer>
-        <b>Todos los derechos reservados &copy; syntaxsanctuary-timefinancehub-piezas4websites-phpframework-adaptowebs-mercancia.</b>
+        <b>Todos los derechos reservados &copy; syntaxsanctuary-
+            <p>
+                <b>antes de la comunicacion entre nodos 7G10, ya existen los mecanismos para la duplicacion, monitoreo y distribucion del software.<br>
+                    Lo cual es maravilloso y de momento y hasta que dejen de existir git y github no nos preocupamos por esa parte(duplicacion y distribucion).
+                </b><br>
+                <a href="duplicacion/antes_de_la_comunicacion_existia_duplicacion.php">timefinancehub</a>-piezas4websites-phpframework-adaptowebs-mercancia.</b>
+            </p>
         <p>
             <a href="http://localhost:8080">O-O-O-O-O-O</a>
         </p>
