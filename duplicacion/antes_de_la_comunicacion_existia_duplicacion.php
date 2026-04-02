@@ -24,5 +24,22 @@
     <a href="https://github.com/piezasite/7G10">Developer</a>
     <a href="https://phpframe.work">Costumer</a>
     <h2>Ahora si continuaremos con la comunicacion. la API.</h2>
+    <p>
+        La capa de comunicacion sera inmensa pero<br>
+        iniciemos de apoquito. primero tendremos o podemos 
+        observar que la comunicacion inmediata necesaria para 
+        la interaccion interna son 2.
+    </p>
+    <p>
+        comunicacion global de index a index
+        y la comunicacion con la base de datos,
+        para que esta ultima nos ayude a desacoplar 
+        la informacion harcodeada en el index.
+    </p>
+    <p>
+        y organizarla en tablas relacionadas 
+        para mantener la estructura separada
+        de la informacion que contiene.
+    </p>
 </body>
 </html>
