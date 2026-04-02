@@ -22,7 +22,7 @@
     </p>
     <h2>Choose your rol</h2>
     <a href="https://github.com/piezasite/7G10">Developer</a>
-    <a href="https://phpframe.work">Costumer</a>
+    <a href="https://phpframe.work">Customer</a>
     <h2>Ahora si continuaremos con la comunicacion. la API.</h2>
     <p>
         La capa de comunicacion sera inmensa pero<br>
