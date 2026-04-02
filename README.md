@@ -46,3 +46,10 @@ para definir al owner del archivo
 ## esferas:
 
 <a href="https://phpframe.work">enter</a>
+
+## tools incluidas en cada esfera posteada
+
+1- puedes descargar el video antes que desaparesca
+
+2 - si tienes un dispositivo tv conectado ala misma red wifi te aparecera un icono en el centro de la esfera con el cual podras transmitir desde tu telefono celular ha tu tv
+
