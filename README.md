@@ -53,3 +53,8 @@ para definir al owner del archivo
 
 2 - si tienes un dispositivo tv conectado ala misma red wifi te aparecera un icono en el centro de la esfera con el cual podras transmitir desde tu telefono celular ha tu tv
 
+## la base de datos ?
+
+esa te la creas tu con la logica a medida. tienes un array el cual
+puedes usar literal o de inspiracion para la estructura base de tu 
+base de datos relacional.
