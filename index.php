@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>Cambio de paradigma</h1>
+        <h1>Concepto</h1>
         <b>you are not my mom and im not my dad.</b>
     </header>
     <h2>Algoritmo</h2>
