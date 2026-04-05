@@ -55,6 +55,6 @@ para definir al owner del archivo
 
 ## la base de datos ?
 
-esa te la creas tu con la logica a medida. tienes un array el cual
+esa te la creas tú, con la logica a medida. tienes un array el cual
 puedes usar literal o de inspiracion para la estructura base de tu 
 base de datos relacional.

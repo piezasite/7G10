@@ -1,3 +1,5 @@
 .env
 .env.*
 !.env.example
+duplicacion.zip
+uploads.zip
