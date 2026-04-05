@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paradigma 7G10</title>
+    <title>7G10</title>
 </head>
 <body>
     <header>
