@@ -58,3 +58,5 @@ para definir al owner del archivo
 esa te la creas tú, con la logica a medida. tienes un array el cual
 puedes usar literal o de inspiracion para la estructura base de tu 
 base de datos relacional.
+
+## docker
