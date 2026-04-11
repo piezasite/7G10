@@ -45,7 +45,7 @@ para definir al owner del archivo
 
 ## esferas:
 
-<a href="https://adaptowebs.com/status/">enter</a>
+<a href="https://piezasite.github.io/landing/">enter</a>
 
 ## tools incluidas en cada esfera posteada
 
